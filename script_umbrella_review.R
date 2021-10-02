@@ -1,14 +1,14 @@
 #if script does not run ensure your working directory is in the
 #path where the excel file is stored, check current working directory
-#by gewd(), set working directory by 
-#setwd("C:/Users/path_of_the_excel_file"Table_for_script‹.xlsx")
+#by getwd(), set working directory by 
+#setwd("C:/Users/path_of_the_excel_file"Table_for_script√ú.xlsx")
 #
 
 library(readxl)
 library(dplyr)
 library(dmetar)
 #creating a variable that contains all studies
-Level_of_evidence_2 <- read_excel("Table_for_script‹.xlsx")
+Level_of_evidence_2 <- read_excel("Table_for_script√ú.xlsx")
 
 View(Level_of_evidence_2)
 #creating a variable that only contains studies that are pooled for overall risk_factor comparison (Migration, childhood trauma, discrimination)
